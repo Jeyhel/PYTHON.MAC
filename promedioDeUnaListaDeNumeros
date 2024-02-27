@@ -1,0 +1,9 @@
+lista = [4,3,6,8,8,8,3,4,1]
+valores = len(lista)
+suma = 0
+
+for n in lista:
+    suma += n
+    
+promedio = suma / valores 
+print(f"El promedio es: {promedio}")
